@@ -14,6 +14,7 @@ def sail(x, y):
     canvas.create_line(x,y,x,y-25,x+10+plachta,y-10,x,y-5)
     canvas.create_polygon(x-20,y,x+20,y,x+10,y+8,x-10,y+8, fill=random.choice(colors))
 
+    #nech mame duhove lodicky
 colors=["#cf2d1b", "#ed6111", "#edc811", "#6ced11", "#11ed8e", "#11abed", "#3511ed", "#af11ed", "#ed118e"]
 
 def setup():
